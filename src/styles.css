@@ -136,7 +136,7 @@ main {
 }
 
 .section {
-  padding: var(--s96) 0;
+  padding-block: var(--s96);
 }
 
 .eyebrow {
@@ -280,7 +280,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--s16) 0;
+  padding-block: var(--s16);
   gap: var(--s16);
 }
 .brand {
@@ -359,7 +359,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: var(--s24);
-  padding: 12px 0;
+  padding-block: 12px;
   flex-wrap: wrap;
 }
 .promo-row .eyebrow {
@@ -382,7 +382,7 @@ main {
   grid-template-columns: 1.05fr 0.95fr;
   gap: var(--s64);
   align-items: center;
-  padding: var(--s96) 0 var(--s96);
+  padding-block: var(--s96);
 }
 .hero-actions {
   display: flex;
@@ -1250,7 +1250,7 @@ main {
     text-align: center;
   }
   .section {
-    padding: var(--s48) 0;
+    padding-block: var(--s48);
   }
   .survey-card,
   .panel {
